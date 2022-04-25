@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin: 5rem 5rem;
+}
+
+div {
+    border: 5px inset bisque;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 1.0px 2.1px 2.1px hsl(0deg 0% 0% / 0.47);
+    display: inline-block;
+    width: 18rem;
+    height: 15rem;
+    margin: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+div:hover {
+    transform: scale(1.1);
+    box-shadow: 3.0px 6.1px 6.1px hsl(0deg 0% 0% / 0.41);
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgb(248, 69, 69);
+    }
+
+    div {
+        color: bisque;
+    }
+
+    /*
+    #medium {
+        visibility: visible;
+    }
+
+    #large {
+        visibility: visible;
+    }  */
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    div {
+        border-color: rgb(32, 31, 31);
+    }
+
+    /*  #small {
+        visibility: visible;
+    }
+
+    #large {
+        visibility: visible;
+    }  */
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: rgb(111, 146, 211);
+    }
+
+    h1 {
+        color: bisque;
+    }
+
+    div {
+        color: bisque;
+        border-color: bisque;
+    }
+
+    /* #small {
+        visibility: visible;
+    }
+
+    #medium {
+        visibility: visible;
+    }
+
+    #large {
+        visibility: visible;
+    } */
+}
